@@ -1,0 +1,35 @@
+
+#landing{
+    display: flex; flex-direction: column;
+    align-items:center;justify-content: center;
+    background: url('https://images.theconversation.com/files/266530/original/file-20190329-70982-1czv13a.jpg?ixlib=rb-1.1.0&rect=0%2C0%2C7348%2C3668&q=45&auto=format&w=1356&h=668&fit=crop');
+    background-attachment: fixed;
+    background-size: cover;
+}
+#landing h1{
+    margin-top: 40vh;
+    font-size: 75px;
+    max-width: 98vw;
+    color: white;
+    text-align: center;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
+#landing img{
+    margin-bottom: -0.1vh;
+}
+/*====================================NEWS ===================================================*/
+
+#main{
+    height: 700px;
+    width:100vw;
+    margin-bottom: 5vh;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+}
+@media screen and (min-width:768px ) {
+    iframe{
+        width: 500px;
+    }
+}

@@ -1,0 +1,39 @@
+/*================================LANDING=================================*/
+
+#landing{
+    min-height: 85vh;
+    display: flex; flex-direction: column;
+    align-items:center;justify-content: center;
+    background: url(https://seaweedsolutions.com/images/_s/underwater-seaweed-farm.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+#landing h1{
+    margin-top: 40vh;
+    font-size: 75px;
+    max-width: 98vw;
+    color: white;
+    text-align: center;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
+#landing img{
+    margin-bottom: -0.1vh;
+}
+
+/*==================people==================*/
+@media screen and (max-width: 768px){
+    #people .cont{
+       display:flex;
+        flex-direction: column;
+        justify-content: center; align-items: center;
+        padding: 5vh 10vw 5vw 10vw;
+    }
+    #people .cont .img{
+   background: url(https://cdn.pixabay.com/photo/2013/07/13/10/44/man-157699_1280.png);
+    background-size: cover;
+    width: 60%;
+    aspect-ratio: 1;
+    border-radius: 50% ;
+    }
+}

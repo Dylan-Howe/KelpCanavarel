@@ -1,0 +1,43 @@
+/*===================================SECTION 2==================*/
+#sect2{
+    flex-direction: row;
+}
+#sect4{
+    flex-direction: row-reverse;
+}
+#sect2 .imgcont, #sect4 .imgcont{
+    height: calc((100vw * 0.4)*0.95);
+    width: 40vw;
+}
+.circ1, .circ2{
+    height: 65%;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    transition: 2s ease-in-out;
+}
+.circ2{
+    float: right;
+    margin-top: -35%;
+    background: url('https://u4d2z7k9.rocketcdn.me/wp-content/uploads/2020/05/Webp.net-resizeimage-97.jpg');
+    background-size: cover;
+    
+}
+.circ2.s{
+    float:left;
+    background: url('http://jdrf.org.uk/wp-content/uploads/2018/08/seaweed-cure-type-1-diabetes.jpg');
+    background-size: cover;
+}
+
+.circ1.s{
+    float:right;
+    background: url('https://www.thoughtco.com/thmb/OzMy1FZxtss6ZVa4BJr9LNafDck=/2121x1193/smart/filters:no_upscale()/sb10067953j-001-56a5f6d75f9b58b7d0df4f26.jpg');
+    background-size: cover; 
+}
+.circ1{
+    background: url('https://cdn.britannica.com/07/155207-050-2EFD049F/Bladder-wrack-brown-alga-coasts-Atlantic-Ocean.jpg');
+    background-size: cover;
+}
+.circ1:hover,.circ2:hover{
+    height: 75%;
+    transition: 2s ease-in-out
+}

@@ -1,0 +1,33 @@
+footer{
+    background: linear-gradient(white, rgb(42, 196, 28));
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-left: 5vw;
+    padding-right: 5vw;
+}
+footer a{
+    text-decoration: none;
+    color:black;
+}
+footer b{
+    font-weight: normal;
+}
+@media screen and (min-width: 1024px){
+    footer{
+        padding-left: 20vw;
+        padding-right: 20vw;
+    }
+    footer b{
+        float: right;
+        font-weight: normal;
+    }
+    footer b{
+        display: none;
+    }
+    footer a::after{
+        content: 'Website Design and Creation by Dylan Howe';
+        float: right;
+    }
+}
